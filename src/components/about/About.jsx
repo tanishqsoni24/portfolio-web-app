@@ -15,8 +15,7 @@ const About = () => {
               <p className="about__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio cumque quae ea pariatur corporis ducimus laborum nihil qui illo perferendis assumenda temporibus nisi modi dignissimos quo mollitia molestiae sapiente doloremque reiciendis, tenetur fugit repellendus! Corporis tempore quas voluptatem libero? Doloribus saepe est aliquam porro dolor enim repellat quam alias reprehenderit.
               </p>
-
-              <a download="" href="" className="button button--flex">Download CV
+              <a href={process.env.PUBLIC_URL + "/myResume.pdf"} download="" className="button button--flex">Download CV
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +38,7 @@ const About = () => {
                 ></path>
                 <path
                   d="M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z"
-                  fill="var(--container-color)"
+                  fill="var(--c ontainer-color)"
                 ></path>
               </svg>
               </a>
